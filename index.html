@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="nl" id="html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The King's Head</title>
+  <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="theme-color" content="#a9251c" />
+  <!-- SEO -->
+  <meta name="description" content="Groovy, grungy stonerrock band from Breda, The Netherlands.">
+  <meta name="robots" content="all">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Groovy, grungy stonerrock band from Breda, The Netherlands.">
+  <meta property="og:site_name" content="The King's Head">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147243423-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-147243423-1');
+  </script>
+
+</head>
+<body id="website">
+
+  <img src="/img/right.jpg" class="centerImage" id="tkh">
+
+  <div class="footer">
+    <a href="https://www.facebook.com/TheKingsHeadRocks/" class="facebook" title="Facebook"></a>
+    <a href="https://www.instagram.com/thekingsheadrocks/" class="instagram" title="Instagram"></a>
+  </div>
+  <script>
+    random = Math.random() >= 0.5;
+    image = document.getElementById('tkh');
+    image.src = random 
+    ? "/img/right.jpg" 
+    : "/img/left.jpg"; 
+
+    document.getElementById('website').classList.add(random ? 'left' : 'right');
+    document.getElementById('tkh').classList.add(random ? 'left' : 'right');
+  </script>
+</body>
+</html>

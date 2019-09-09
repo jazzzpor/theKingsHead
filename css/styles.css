@@ -1,0 +1,88 @@
+html {	
+	padding: 0;
+	height: 100%;
+	background-image: url("/img/bg.jpg");
+	background-repeat: repeat;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body.left {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(-53.6deg,  rgba(255,255,255,0) 50%, #000000 50%); /* FF3.6-15 */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(50%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0))); /* Chrome4-9,Safari4-5 */
+	background: -webkit-linear-gradient(-53.6deg,  rgba(255,255,255,0) 50%,#000000 50%); /* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(-53.6deg,  rgba(255,255,255,0) 50%,#000000 50%); /* Opera 11.10-11.50 */
+	background: -ms-linear-gradient(-53.6deg,  rgba(255,255,255,0) 50%,#000000 50%); /* IE10 preview */
+	background: linear-gradient(143.6deg,  rgba(255,255,255,0) 50%,#000000 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+body.right {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(53.6deg,  #000000 50%, rgba(255,255,255,0) 50%); /* FF3.6-15 */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(50%,#000000), color-stop(50%,#000000)); /* Chrome4-9,Safari4-5 */
+	background: -webkit-linear-gradient(53.6deg,  #000000 50%,rgba(255,255,255,0) 50%); /* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(53.6deg,  #000000 50%,rgba(255,255,255,0) 50%); /* Opera 11.10-11.50 */
+	background: -ms-linear-gradient(53.6deg,  #000000 50%,rgba(255,255,255,0) 50%); /* IE10 preview */
+	background: linear-gradient(-143.6deg,  #000000 50%,rgba(255,255,255,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.centerImage {
+	display: block;
+	max-height: 90%;
+	width: auto;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.centerImage.left {
+	top: -1px;
+}
+
+.centerImage.right {
+	top: 2px;
+}
+
+.footer {
+	display: block;
+	width: auto;
+	padding: 5px 0px 5px 5px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background: #a9251c;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+.footer a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin: 0 5px 0 0;
+	background-color: #ffffff;
+	background-size: cover;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+.facebook {
+	background-image: url("/img/facebook.png");
+}
+
+.instagram {
+	background-image: url("/img/instagram.png");
+}
